@@ -2,13 +2,14 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - main block
- * Description: prints all single digit number of base 10
- * starting from 0, followed by a new line
- * return: 0
+ *main - main block
+ *Description: prints all single digit number of base 10
+ *starting from 0, followed by a new line
+ *Return: 0
  */
 int main(void)
 {
+
 	char c = '0';
 
 	while (c <= '9')

@@ -1,10 +1,21 @@
 #include <stdio.h>
 /**
- * main - program that prints all possible combinations of single-digit numbers.
- * Return: 0 (sucess)
+ * main - Entry point
+ * Description: prints 0 - 9 seperated by commas
+ * Return: 0 (success)
  */
-
 int main(void)
 {
-	int a,b
-	
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		putchar(i + '0');
+		if (i == 9)
+			break;
+		putchar(',');
+		putchar(' ');
+	}
+	putchar('\n');
+	return (0);
+}

@@ -1,17 +1,17 @@
 #include "main.h"
 /**
- * print_sign - entry
+ * print_sign - print sign to stdout
  * Description - Print Signs
  * @n: accept input from stdin
- * Return: 0 (SUCCESS), 1 (FAILURE)
+ * Return: 0( failure), 1 (success)
  */
 
 int print_sign(int n)
 {
-	if (n > 0)
+	if (n < 0)
 	{
 		_putchar('+');
-	return (1);
+	return (-1);
 	}
 	else if (n == 0)
 	{
@@ -19,9 +19,8 @@ int print_sign(int n)
 	return (0);
 	}
 	else
-		(n < 0);
 	{
 		_putchar('-');
-	return (-1);
+	return (1);
 	}
 }

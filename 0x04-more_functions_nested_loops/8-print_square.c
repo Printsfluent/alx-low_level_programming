@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_square - prints the character # as a square
- * @size: the size of the sqaure to be printed
+ *print_square - prints the character # as a square
+ *@size: the size of the sqaure to be printed
  */
 void print_square(int size)
 {

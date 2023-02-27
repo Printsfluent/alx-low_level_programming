@@ -1,6 +1,6 @@
 #include <string.h>
 #include "main.h"
-
+#include <stdio.h>
 /**
  *_strlen - Function that prints the length of a string
  *@s : pointer
@@ -10,6 +10,11 @@
 int _strlen(char *s)
 
 {
-/* Return the length of the input string. */
+	char *str;
+	int len;
+
+	str = "My first strlen!";
+	len = _strlen(str);
+	printf("%d\n", len);
 	return (*s);
 }

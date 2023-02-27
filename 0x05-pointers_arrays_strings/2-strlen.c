@@ -10,11 +10,11 @@
 int _strlen(char *s)
 
 {
-	char *str;
-	int len;
+	int i;
 
-	str = "My first strlen!";
-	len = _strlen(str);
-	printf("%d\n", len);
-	return (*s);
+	for (; *s != '\0'; s++)
+{
+		i++;
+}
+	return (i);
 }

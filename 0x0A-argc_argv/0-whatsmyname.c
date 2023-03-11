@@ -10,6 +10,7 @@
 
 int main(int argc, char *argv[])
 {
+(void) *argv; /*ignore *argv*/
 printf("%s\n", *argv);
 
 return (0);
